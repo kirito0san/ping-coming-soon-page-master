@@ -1,0 +1,157 @@
+* {
+  font-family: "Libre Franklin", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+main {
+  padding: 20px 0;
+  width: 100%;
+  gap: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+  transition: 02s;
+  opacity: 0;
+  margin: 20px 0;
+  -webkit-transition: 02s;
+  -moz-transition: 02s;
+  -ms-transition: 02s;
+  -o-transition: 02s;
+}
+.dashboard {
+  opacity: 0;
+  transition-duration: 2s;
+  transition-delay: 4s;
+  width: 90%;
+  margin: 47px 0;
+
+  max-width: 900px;
+}
+h1 {
+  text-align: center;
+  opacity: 0;
+  transition-delay: 1s;
+  transition-duration: 2s;
+  color: hsl(0, 0%, 59%);
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+b {
+  font-size: 2.5rem;
+  color: hsl(209, 33%, 12%);
+}
+/* Notify */
+.Notify {
+  opacity: 0;
+  transition-duration: 2s;
+  transition-delay: 3s;
+  margin: 0 20px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+}
+label {
+  margin: 20px 0;
+  max-width: 549px;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  position: relative;
+}
+.please {
+  font-size: 15px;
+  bottom: -26px;
+  width: max-content;
+  color: red;
+  position: absolute;
+  left: 24px;
+}
+.Notify input {
+  border: 1px solid hsla(0, 0%, 59%, 0.38);
+  padding-left: 20px;
+  height: 50px;
+  flex-grow: 1;
+  outline: 0;
+  min-width: 300px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  caret-color: hsl(223, 87%, 63%);
+}
+.Notify input::placeholder {
+  padding-left: 5px;
+}
+@media screen and (max-width: 768px) {
+  .Notify button {
+    flex-grow: 1;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  b {
+    font-size: 1.5rem;
+  }
+}
+.Notify button {
+  margin: 20px 0;
+  width: 189px;
+  padding: 0 20px;
+  height: 50px;
+
+  color: white;
+  border: 0;
+  background-color: hsl(223, 87%, 63%);
+  cursor: pointer;
+  border-radius: 30px;
+}
+.Notify button:hover {
+  background-color: hsl(223, 85%, 47%);
+}
+.Notify button:active {
+  background-color: hsla(223, 87%, 63%, 0.648);
+}
+
+/* Notify */
+
+.social {
+  opacity: 0;
+  transition-duration: 2s;
+  transition-delay: 5s;
+  display: flex;
+  gap: 20px;
+}
+.social i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid hsla(0, 0%, 59%, 0.38);
+  color: hsl(223, 87%, 63%);
+}
+.social i:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+}
+.copy {
+  opacity: 0;
+  transition-duration: 2s;
+  transition-delay: 6s;
+  font-size: 15px;
+  color: hsla(0, 0%, 59%, 0.951);
+}
+.Subscribe {
+  opacity: 0;
+  transition-duration: 2s;
+  transition-delay: 2s;
+}
